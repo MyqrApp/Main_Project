@@ -95,14 +95,8 @@ public class ObjectDetailsActivity extends AppCompatActivity {
                         res += ch;
                     }
                     else{
-                        if (ch == 'z')
-                            res += 'a';
-                        else if (ch == 'Z')
-                            res += 'A';
-                        else{
                             int x = (int)ch + 1;
                             res += (char)x;
-                        }
                     }
                 }
                 String z ="~"+res;
