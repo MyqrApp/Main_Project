@@ -112,14 +112,8 @@ public class dashboardSignedOut extends AppCompatActivity {
                             res += ch;
                         }
                         else{
-                            if (ch == 'a')
-                                res += 'z';
-                            else if (ch == 'A')
-                                res += 'Z';
-                            else{
                                 int x = (int)ch - 1;
                                 res += (char)x;
-                            }
                         }
                     }
                     Intent aa = new Intent(dashboardSignedOut.this,QrDetailsActivity.class);
